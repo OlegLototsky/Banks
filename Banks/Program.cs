@@ -27,7 +27,7 @@ namespace Banks
             {
                 if (node["CharCode"].InnerText == "USD")
                 {
-                    Console.WriteLine("Стоимость валюты " + node["Name"].InnerText);
+                    Console.WriteLine("Стоимость валюты " + node["Value"].InnerText);
                 }
 
               
